@@ -4,8 +4,8 @@
         <name>john doe</name>
         <address>
             <flat></flat>
-            <house>H#38</house>
-            <road>R#3</road>
+            <house>38</house>
+            <road>3</road>
             <area>Banani</area>
             <city>Dhaka</city>
         </address>
@@ -20,8 +20,8 @@
         <name>mark zukerberg</name>
         <address>
             <flat>flat#A/1</flat>
-            <house>h#20</house>
-            <road>r#18</road>
+            <house>20</house>
+            <road>18</road>
             <area>mirpur</area>
             <city>dhaka</city>
         </address>
@@ -36,8 +36,8 @@
         <name>ala voski</name>
         <address>
         <flat></flat>
-            <house>h#38</house>
-            <road>r#3</road>
+            <house>38</house>
+            <road>3</road>
             <area>motijheel</area>
             <city></city>
         </address>
