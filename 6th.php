@@ -1,25 +1,21 @@
 <?php
 
-$num = array(1,2,3,4,5,6,9);
+    $num = [1, 2, 8, 3, 9, 0, 7, 8];
 
-// Element to search for
-$searchElement = 10;
+    $x =9 ;
+    $at = -1;
 
-// Flag to indicate if the element is found
-$found = false;
-
-// Loop through the array to search for the element
-foreach ($num as $number) {
-    if ($number == $searchElement) {
-        $found = true;
-        break; // Exit the loop once the element is found
+    echo "Nums: ";
+    for ($i = 0; $i < count($num); $i++) {
+        echo "{$num[$i]} ";
+        if ($num[$i] == $x) {
+            $at = $i;
+        }
     }
-}
 
-// Check if the element is found and display the result
-if ($found) {
-    echo "Element $searchElement is found in the array.";
-} else {
-    echo "Element $searchElement is not found in the array.";
-}
+    if ($at == -1) {
+        echo "<br>{$x} is not found";
+    } else {
+        echo "<br>{$x} found at index {$at}";
+    }
 ?>
