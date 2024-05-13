@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  min-height: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 70px;
+  border-bottom: 2px solid black;
+}
+
+.container-body {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  border-bottom: 2px solid black;
+}
+
+.content {
+  padding: 20px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: -37px;
+  cursor: pointer;
+}
+
+.nav a {
+  text-decoration: none;
+  padding-bottom: 2px;
+  margin-right: 50px;
+  color: black;
+  font-weight: 550;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav a::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: black;
+  transition: all ease 0.4s;
+}
+
+.nav a:hover::before {
+  width: 100%;
+}
+
+.btn {
+  background-color: white; 
+  border: 3px solid black;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+
+.footer {
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  height: 70px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid black;
+  outline: none;
+  font-weight: bold;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid black;
+  outline: none;
+  font-weight: bold;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid black;
+  outline: none;
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid black;
+  outline: none;
+  font-weight: bold;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid black;
+  outline: none;
+  font-weight: bold;
+}
+
+fieldset {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid black;
+  outline: none;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
