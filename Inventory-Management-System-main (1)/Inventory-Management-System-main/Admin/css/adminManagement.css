@@ -1,0 +1,67 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../image/admin_background.svg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding-right: 300px;
+}
+
+h2 {
+  color: #ffd700;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px #000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #ffd700;
+  color: #000;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  width: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #e6c200;
+  color: #000;
+}
+
+.back-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1em;
+  width: auto;
+  border-radius: 5px;
+  background: #de3f0f;
+  color: #000;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #ccad00;
+}

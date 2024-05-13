@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url("../image/employee_background.svg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding-right: 10%;
+}
+
+.form-container {
+  width: 500px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"],
+input[type="reset"],
+button {
+  cursor: pointer;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+}
+
+input[type="reset"] {
+  background-color: #f44336;
+  color: white;
+}
+
+button {
+  background-color: #008cba;
+  color: white;
+}
+.error-message {
+  color: #d8000c;
+  background-color: #ffd2d2;
+  border: 1px solid #d8000c;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.success-message {
+  color: #4f8a10;
+  background-color: #dff2bf;
+  border: 1px solid #4f8a10;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.gender-selection {
+  margin-bottom: 10px;
+}
+
+.gender-selection span,
+.gender-selection label {
+  display: inline;
+  margin-right: 5px;
+}
+.gender-selection input[type="radio"] {
+  margin-right: 2px;
+}
